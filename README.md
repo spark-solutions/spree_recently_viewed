@@ -8,6 +8,15 @@ This extension maintains and displays a list of the products a user has recently
 ## Installation
 
 1. Add this extension to your Gemfile with this line:
+
+  #### Spree >= 3.1
+
+  ```ruby
+  gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed'
+  ```
+
+  #### Spree 3.0 and Spree 2.x
+
   ```ruby
   gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed', branch: 'X-X-stable'
   ```
